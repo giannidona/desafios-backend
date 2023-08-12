@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "name": "product 1",
+    "description": "first product testing",
+    "img": "img",
+    "price": 13,
+    "code": "abc123",
+    "stock": 23
+  },
+  {
+    "id": 1,
+    "name": "product 2",
+    "description": "second product testing",
+    "img": "img",
+    "price": 13,
+    "code": "abc123",
+    "stock": 23
+  }
+]
