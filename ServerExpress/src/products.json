@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "name": "PRODUCT ADDED TEST",
+    "description": "testing",
+    "img": "img",
+    "price": 13,
+    "code": "abc3333",
+    "stock": 23
+  },
+  {
+    "id": 1,
+    "name": "SECOND PRODUCT ADDED",
+    "description": "testing",
+    "img": "img",
+    "price": 2,
+    "code": "222",
+    "stock": 22
+  },
+  {
+    "id": 2,
+    "name": "THIRD PRODUCT ADDED",
+    "description": "testing",
+    "img": "img",
+    "price": 3,
+    "code": "333",
+    "stock": 33
+  },
+  {
+    "id": 3,
+    "name": "FOURTH PRODUCT ADDED",
+    "description": "testing",
+    "img": "img",
+    "price": 4,
+    "code": "444",
+    "stock": 44
+  },
+  {
+    "id": 4,
+    "name": "FIFTH PRODUCT ADDED",
+    "description": "testing",
+    "img": "img",
+    "price": 5,
+    "code": "555",
+    "stock": 55
+  }
+]
