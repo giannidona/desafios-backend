@@ -1,0 +1,60 @@
+<h2>NUEVO PRODUCTO</h2>
+<form action="/addproduct" method="POST" id="addProdForm">
+  <label for="title">Título:</label>
+  <input
+    type="text"
+    id="title"
+    name="title"
+    placeholder="Nombre del producto"
+    required
+  />
+
+  <label for="description">Descripción:</label>
+  <textarea
+    id="description"
+    name="description"
+    placeholder="Descripción del producto"
+    required
+  ></textarea>
+
+  <label for="img">URL de la imagen:</label>
+  <input
+    type="text"
+    id="img"
+    name="img"
+    placeholder="URL de la imagen"
+    required
+  />
+
+  <label for="price">Precio:</label>
+  <input
+    type="number"
+    id="price"
+    name="price"
+    placeholder="Precio del producto"
+    required
+  />
+
+  <label for="code">Código:</label>
+  <input
+    type="text"
+    id="code"
+    name="code"
+    placeholder="Código del producto"
+    required
+  />
+
+  <label for="stock">Stock:</label>
+  <input
+    type="number"
+    id="stock"
+    name="stock"
+    placeholder="Stock disponible"
+    required
+  />
+
+  <button type="submit">Agregar Producto</button>
+</form>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
