@@ -1,0 +1,29 @@
+<form
+  action="http://localhost:8080/products"
+  method="post"
+  enctype="multipart/form-data"
+>
+  <label>Nombre:</label>
+  <input type="text" required name="name" />
+  <br />
+  <label>Stock:</label>
+  <input type="number" required name="stock" />
+  <br />
+  <label>Descripcion:</label>
+  <input type="text" required name="descrip" />
+  <br />
+  <label>Imagen:</label>
+  <input type="file" name="file" />
+  <br />
+  <button type="submit" value="submit">Enviar</button>
+</form>
+
+{{#each prods}}
+  <div>
+    <img src="http://localhost:8080/static/{{this.image}}" />
+    <h2>{{this.name}}</h2>
+    <p>{{this.stock}}</p>
+    <p>{{this.descrip}}</p>
+    <p>{{this.image}}</p>
+  </div>
+{{/each}}
