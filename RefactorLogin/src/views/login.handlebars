@@ -1,0 +1,32 @@
+<div class="flex justify-center py-5">
+  <h1 class="font-bold">LOGIN</h1>
+</div>
+
+<div class="w-2/4 m-auto pt-5 flex justify-center bg-sky-300 rounded">
+  <form action="http://localhost:8080/api/login" method="post">
+    <div class="pb-2">
+      <div>
+        <label for="first_name">USERNAME</label>
+      </div>
+      <div>
+        <input type="text" name="first_name" id="first_name" class="rounded" />
+      </div>
+    </div>
+    <div class="pb-2">
+      <div>
+        <label for="password">PASSWORD</label>
+      </div>
+      <div>
+        <input type="text" name="password" id="password" class="rounded" />
+      </div>
+
+    </div>
+    <div class="pt-3 flex justify-center">
+      <button
+        type="submit"
+        class="bg-black py-1.5 px-4 rounded font-bold text-white hover:bg-zinc-700"
+      >Login</button>
+    </div>
+  </form>
+  <a href="http://localhost:8080/api/github">github login</a>
+</div>

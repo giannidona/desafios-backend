@@ -1,0 +1,43 @@
+<div class="flex justify-center py-5">
+  <h1 class="font-bold">REGISTER</h1>
+</div>
+
+<div class="w-2/4 m-auto pt-5 flex justify-center bg-sky-300 rounded">
+  <form
+    action="http://localhost:8080/api/register"
+    method="post"
+    enctype="multipart/form-data"
+  >
+    <div>
+      <div>
+        <label for="first_name">USERNAME</label>
+      </div>
+      <div>
+        <input type="text" name="first_name" id="first_name" />
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="email">EMAIL</label>
+      </div>
+      <div>
+        <input type="email" name="email" id="email" />
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for="password">PASSWORD</label>
+      </div>
+      <div>
+        <input type="password" name="password" id="password" />
+      </div>
+    </div>
+
+    <div class="pt-3 flex justify-center">
+      <button
+        type="submit"
+        class="bg-black py-1.5 px-4 rounded text-white hover:bg-zinc-700"
+      >Signup</button>
+    </div>
+  </form>
+</div>
