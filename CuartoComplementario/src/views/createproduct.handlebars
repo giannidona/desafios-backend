@@ -1,0 +1,90 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CREATE PRODUCT</title>
+  </head>
+  <body class="flex items-center justify-center h-screen">
+    <section class="bg-black text-white rounded">
+      <form
+        class="mb-0"
+        action="/createproduct"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <div class="m-5">
+          <div>
+            <label for="prod_name">PRODUCT NAME</label>
+          </div>
+          <div>
+            <input
+              class="text-black rounded mt-2"
+              type="text"
+              id="prod_name"
+              name="prod_name"
+            />
+          </div>
+        </div>
+        <div class="m-5">
+          <div>
+            <label for="description">DESCRIPTION</label>
+          </div>
+          <div>
+            <input
+              class="text-black rounded mt-2"
+              type="text"
+              id="description"
+              name="description"
+            />
+          </div>
+        </div>
+        <div class="m-5">
+          <div>
+            <label for="stock">STOCK</label>
+          </div>
+          <div>
+            <input
+              class="text-black rounded mt-2"
+              type="number"
+              id="stock"
+              name="stock"
+            />
+          </div>
+        </div>
+        <div class="m-5">
+          <div>
+            <label for="price">PRICE</label>
+          </div>
+          <div>
+            <input
+              class="text-black rounded mt-2"
+              type="number"
+              id="price"
+              name="price"
+            />
+          </div>
+        </div>
+        <div class="m-5">
+          <div>
+            <label for="prod_image">PRODUCT IMAGE</label>
+          </div>
+          <div>
+            <input
+              class="text-black rounded mt-2"
+              type="file"
+              id="prod_image"
+              name="file"
+            />
+          </div>
+        </div>
+        <div class="m-5 text-center">
+          <button
+            class="bg-white text-black rounded px-2 font-bold"
+            type="submit"
+          >CREATE</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>REGISTER</title>
+  </head>
+  <body class="flex items-center justify-center h-screen">
+    <section class="bg-black text-white rounded">
+      <form class="mb-0" action="/register" method="post">
+        <div class="m-5">
+          <div>
+            <label for="username">USERNAME</label>
+          </div>
+          <div>
+            <input
+              class="text-black rounded mt-2"
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Username"
+              required
+            />
+          </div>
+        </div>
+        <div class="m-5">
+          <div>
+            <label for="surname">SURNAME</label>
+          </div>
+          <div>
+            <input
+              class="text-black rounded mt-2"
+              type="text"
+              id="surname"
+              name="surname"
+              placeholder="Surname"
+              required
+            />
+          </div>
+        </div>
+        <div class="m-5">
+          <div>
+            <label for="email">EMAIL</label>
+          </div>
+          <div>
+            <input
+              class="text-black rounded mt-2"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email"
+              required
+            />
+          </div>
+        </div>
+        <div class="m-5">
+          <div>
+            <label for="password">PASSWORD</label>
+          </div>
+          <div>
+            <input
+              class="text-black rounded mt-2"
+              type="password"
+              id="password"
+              name="password"
+              placeholder="password"
+              required
+            />
+          </div>
+        </div>
+        <div class="m-5 text-center">
+          <button
+            class="bg-white text-black rounded px-2 font-bold"
+            type="submit"
+          >REGISTER</button>
+        </div>
+      </form>
+      <div class="text-center mb-5">
+        <p>or login clicking
+          <a class="underline" href="/login">here</a></p>
+      </div>
+    </section>
+  </body>
+</html>
